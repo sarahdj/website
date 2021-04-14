@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="Food, restaurant, local" name="keywords">
+	<meta content="This is a website for Fork In The Road" name="description">
+	<meta content="Emma Marshall" name="author">
+	<title>Fork In The Road</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/d56145ddde.js">
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a class="navbar-brand" href="index.html">words</a> <button class="navbar-toggler" data-target="#main-navigation" type="button"><i class="fas fa-bars"></i></button>
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div class="row">
+				<div class="menu_item">
+					<div class="col-xs-7">
+						<img alt="TeeKay_Burger" class="square" src="img/tk_burger.jpeg">
+						<h2>TeeKay Burger</h2>
+					</div>
+					<div class="col-xs-7">
+						<form>
+							<fieldset>
+								<div class="form-group">
+									Doneness <select class="form-control" id="cooked" name="cooked">
+										<option value="">
+											Rare
+										</option>
+										<option value="">
+											Med Rare
+										</option>
+										<option value="">
+											Well Done
+										</option>
+									</select>
+								</div><legend>Options</legend>
+								<div class="form-group">
+									<input id="extra_mayo" name="extra_mayo" type="checkbox" value="extra_mayo"> <label for="vehicle1">Extra Mayo</label><br>
+									<input id="no_cheese" name="no_cheese" type="checkbox" value="no_cheese"> <label for="no_cheese">No Cheese</label><br>
+									<input id="no_tomato" name="no_tomato" type="checkbox" value="no_tomato"> <label for="no_tomato">No Tomato</label><br>
+									<input id="sos" name="sos" type="checkbox" value="sos"> <label for="sos">S.O.S.</label><br>
+								</div>
+								<div class="form-group">
+									Special Instructions 
+									<textarea class="form-control" id="details" name="details"></textarea>
+								</div>
+							</fieldset><button class="btn btn-primary" type="submit">Submit Order</button> <button class="btn btn-primary" type="reset">Cancel Order</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="js/app.js">
+	</script>
+</body>
+</html>
