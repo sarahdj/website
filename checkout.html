@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+	<meta content="Food, restaurant, local" name="keywords">
+	<meta content="This is a website for Fork In The Road" name="description">
+	<meta content="Emma Marshall" name="author">
+	<title>Fork In The Road</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/d56145ddde.js">
+	</script>
+</head>
+<body>
+	<header>
+		<nav>
+			<a class="navbar-brand" href="index.html">words</a> 
+		</nav>
+	</header>
+	<main>
+		<div class="container">
+			<div>
+				<div class="col-xs-12 col-m-6">
+					<form>
+						<fieldset>
+							<legend>Payment Information</legend>
+							<div class="form-group">
+								First name <input class="form-control" id="first-name" name="first-name" type="text">
+							</div>
+							<div class="form-group">
+								Middle Initial <input class="form-control" id="middle-init" maxlength="1" name="middle-init" type="text">
+							</div>
+							<div class="form-group">
+								Last name <input class="form-control" id="last-name" name="last-name" type="text">
+							</div>
+							<div class="form-group">
+								Email <input class="form-control" id="email" name="email" placeholder="email@domain.com" type="email">
+							</div>
+							<div class="form-group">
+								Phone Number <input class="form-control" id="phone-number" name="phone-number" type="text">
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Credit Card Information</legend>
+							<div class="form-group">
+								<div class="form-group">
+									Card Number <input class="form-control" id="card_number" name="card_number" type="text">
+								</div>
+								<div class="form-group">
+									Exp. Date <input class="form-control" id="exp_date" name="exp_date" type="text">
+								</div>
+								<div class="form-group">
+									CCV Number <input class="form-control" id="last-name" maxlength="3" name="last-name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								Notes:
+								<textarea class="form-control" id="details" name="details"></textarea>
+							</div>
+						</fieldset><button class="btn btn-primary" type="submit">Place Order</button> <button class="btn btn-primary" type="reset">Reset Order</button>
+					</form>
+				</div>
+				<div class="col-xs-12 col-m-6 sidebar">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-m-12">
+								<div class="row">
+									<div class="col-xs-12">
+										<h2 class="text-center">Shopping Cart</h2>
+									</div>
+								</div>
+								<div class="cart_item">
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="col-xs-6">
+												<img alt="TeeKay_Burger" class="square" src="img/tk_burger.jpeg">
+											</div>
+											<div class="food_cost">
+												<div class="col-xs-5">
+													<p>Teekay Burger (1)</p>
+												</div>
+											</div>
+										</div>
+										<div class="food_cost">
+											<div class="col-xs-8">
+												<p>$7</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="cart_item">
+									<div class="row">
+										<div class="col-xs-6">
+											<div class="col-xs-6">
+												<img alt="TeeKay_Burger" class="square" src="img/tk_burger.jpeg">
+											</div>
+											<div class="food_cost">
+												<div class="col-xs-5">
+													<p>Teekay Burger (2)</p>
+												</div>
+											</div>
+										</div>
+										<div class="food_cost">
+											<div class="col-xs-8">
+												<p>$14</p>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-xs-12">
+										<div class="text-center">
+											<div class="row">
+												<div class="col-xs-6">
+													<p>Subtotal:</p>
+												</div>
+												<div class="food_cost">
+													<div class="col-xs-8">
+														<p>$21</p>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-6">
+													<p>Tax:</p>
+												</div>
+												<div class="food_cost">
+													<div class="col-xs-8">
+														<p>$3</p>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xs-6">
+													<p>Total:</p>
+												</div>
+												<div class="food_cost">
+													<div class="col-xs-8">
+														<p>$2</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+
+	</footer>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="js/app.js">
+	</script>
+</body>
+</html>
