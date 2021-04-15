@@ -516,17 +516,13 @@ nav {
 }
 /*end of image styles*/
 
-.bio {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: baseline;
-	align-content: flex-end;
-	justify-content: baseline;
+/*Bio component*/
+
+.bio .bio-info {
+	font-size: 1rem;
 }
 
-.bio small {
-	margin-bottom: 2rem;
-}
+/*Bio component end*/
 
 /*form*/
 
