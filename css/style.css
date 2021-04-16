@@ -575,6 +575,10 @@ legend {
 	justify-content: left;
 }
 
+.cart_item_checkout .food_cost{
+	padding-top: .5rem;
+}
+
 .cart_item .food_cost{
 	padding-top: 1rem;
 	justify-content: right;
